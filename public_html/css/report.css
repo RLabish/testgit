@@ -1,0 +1,212 @@
+#shiftdialog  {
+  padding: 0;
+}
+
+#shifts-grid-dialog table  {
+  margin: 0;
+}
+
+#shifts-grid-dialog table tbody tr td:first-child  {
+  width: 50px;
+  text-align: right;
+}
+
+#shifts-grid-dialog  .odd {
+  background-color: white;
+}
+
+#shifts-grid-dialog  .even {
+  background-color: white;
+}
+
+#shifts-grid-dialog tr:hover {
+  color: white;
+  background-color: #316AC5;
+}
+
+.report-filter{
+	font-size: 11pt;
+    background-color: #E1ECEE;
+    height: 34px;
+    margin-bottom: 10px;
+}
+
+div.report-filter .row {
+/*  color: red; */
+  float: left;
+  clear: none;  
+}
+
+.report-filter .row  label,
+.report-filter .row input,
+.report-filter .row select {
+ font-size: 11px;
+}
+
+.report-filter .row  label{
+  width: auto;
+  margin: 5px 5px 0px 20px;
+  float: left;
+}
+
+.report-filter .row input,
+.report-filter .row select {
+  margin-top: 2px;
+  margin-bottom: 10px;
+  padding: 1px;
+  width: 100px;
+  min-width: 70px;
+  margin-left: 0px;
+}
+
+.report-filter .row input.date   {
+  min-width: 0px;
+  width: 70px;
+}
+
+.report-filter .buttons{
+  padding-left: 30px;
+}
+
+.report-filter #submit {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 1px;
+    min-width: 0;
+    padding: 3px 10px;
+}
+
+.report-body .empty {
+  font-style: italic;
+}
+
+.report-params {
+  border-bottom: 2px solid #CCCCCC;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.report-params .row{
+  margin-bottom: 3px;
+}
+
+.report-body .param-name {
+    float: left;
+    font-weight: bold;
+	width: 75px;
+}
+
+.report-body .param-value {
+//    color: red;
+	
+}
+
+
+
+.grid-view h1 {
+	border: none;
+	color: #555555;
+	font-weight: bold;
+	font-size: 1em;
+	margin: 0;	
+}
+
+.grid-view .cell-number {
+ text-align: right;
+}
+
+.grid-view .cell-error {
+ color: red;
+}
+
+.grid-view .cell-mark {
+font-weight: bold;
+//border-left: none;
+}
+
+.grid-view .cell-total {
+font-weight: bold;
+text-align: right;
+}
+
+#report-filter #Shifts_number{
+  text-align: right;
+  width: 100px;
+}
+#shiftpumps-grid td {
+//	border-right: none;
+}
+
+
+#shiftpumps-grid h1:hover {
+	background: one;
+	color: green;
+}
+
+#shiftpumps-grid h2 {
+	border: none;
+	color: #555555;
+	font-weight: normal;
+	font-size: 1em;
+	margin: 0;	
+}
+
+#shifttanks-grid_c2,
+#shifttanks-grid_c3,
+#shifttanks-grid_c4,
+#shifttanks-grid_c5,
+#shifttanks-grid_c6,
+#shifttanks-grid_c7,
+#shifttanks-grid_c8,
+#shifttanks-grid_c9,
+#shifttanks-grid_c10 {
+ width: 10%;
+}
+
+#shifttanks-grid  .param {
+  text-align: right;
+  width: 40px;
+}
+			
+#salesreport .report-params  .param-name {
+  width: 90px;
+}
+
+#sumsalesreport #group2 {
+ margin-left: 4px;
+}
+
+#sumsalesreport-filter {
+/*  height: 64px;*/
+}
+
+#sumsalesreport-filter #submit {
+/*    left: 758px;
+    top: -8px;
+	*/
+}
+
+#sumsalesreport .param-name {
+ width: 85px;
+}
+
+.report-title {
+ float: left;
+}
+
+.report-toolbar {
+ float: right;
+}
+
+.report-body {
+ clear: both;
+}
+
+
+#fuelmovereport-filter #TankBookStates_depId {
+	width: 150px;
+}
+
+#fuelmovereport-filter #TankBookStates_azsId {
+	width: 200px;
+}
